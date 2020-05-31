@@ -7,12 +7,23 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r}
+suppressPackageStartupMessages({
+  #library(tidyverse)
+  library(DT)
+})
+```
+
 # Testing `workflowr`
 
 Look I added some new stuff!
 
 ```{r}
 plot(cars)
+```
+
+```{r}
+DT::datatable(iris)
 ```
 
 # Session Info
