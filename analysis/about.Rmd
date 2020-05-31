@@ -7,4 +7,17 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+# Testing `workflowr`
+
+Look I added some new stuff!
+
+```{r}
+plot(cars)
+```
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
+
